@@ -37,12 +37,23 @@ client.on('message', message => {
 
 }); 
 
+client.on('message', message => {
+    if(message.content === '#d'){
+        message.channel.send('#daily')
+    }
+});
+
+client.on('message', message => {
+    if(message.content === '#m'){
+        message.channel.send('#credits')
+    }
+});
 
 client.on('ready', async() => {
-var server = "512532251850833934"; 
-var channel = "513312256789053441";
+var server = "519890778823196672"; 
+var channel = "520360761734725632";
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBestOmarIsBestOmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBestOmarIsBestOmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBestOmarIsBestOmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBestOmarIsBestOmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBest_OmarIsBestOmarIsBest')
+    client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE OSHADOW IS THE ONE >NE >')
     },305);
 })
 
